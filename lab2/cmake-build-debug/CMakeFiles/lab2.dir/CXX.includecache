@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/labs/OOP/lab2/Action.cpp
+Action.h
+D:/labs/OOP/lab2/Action.h
+
+D:/labs/OOP/lab2/Action.h
+iostream
+-
+stdlib.h
+-
+vector
+-
+shopDetails.h
+D:/labs/OOP/lab2/shopDetails.h
+
+D:/labs/OOP/lab2/Item.h
+string
+-
+
+D:/labs/OOP/lab2/Shop.h
+string
+-
+
+D:/labs/OOP/lab2/main.cpp
+Action.h
+D:/labs/OOP/lab2/Action.h
+
+D:/labs/OOP/lab2/shopDetails.h
+shopStock.h
+D:/labs/OOP/lab2/shopStock.h
+
+D:/labs/OOP/lab2/shopStock.h
+Item.h
+D:/labs/OOP/lab2/Item.h
+Shop.h
+D:/labs/OOP/lab2/Shop.h
+map
+-
+

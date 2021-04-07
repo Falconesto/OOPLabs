@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.17)
+project(lab6)
+
+set(CMAKE_CXX_STANDARD 20)
+
+add_executable(lab6 main.cpp PL/Action.cpp PL/Action.h DAL/Infrastructure/ManagerSystem.cpp DAL/Infrastructure/ManagerSystem.h DAL/Infrastructure/ReportManagerSystem.cpp DAL/Infrastructure/ReportManagerSystem.h DAL/Infrastructure/TaskManagerSystem.cpp DAL/Infrastructure/TaskManagerSystem.h DAL/Infrastructure/EmployeeManagerSystem.cpp DAL/Infrastructure/EmployeeManagerSystem.h DAL/Entities/Entitie.cpp DAL/Entities/Entitie.h DAL/Entities/Employee.cpp DAL/Entities/Employee.h DAL/Entities/Task.cpp DAL/Entities/Task.h DAL/Entities/Report.cpp DAL/Entities/Report.h DAL/Time.cpp DAL/Time.h BL/DTO/EmployeeDTO.cpp BL/DTO/EmployeeDTO.h BL/DTO/TaskDTO.cpp BL/DTO/TaskDTO.h BL/DTO/ReportDTO.cpp BL/DTO/ReportDTO.h BL/Services/EmployeeManagerService.cpp BL/Services/EmployeeManagerService.h BL/Services/TaskManagerService.cpp BL/Services/TaskManagerService.h BL/Services/ReportManagerService.cpp BL/Services/ReportManagerService.h BL/DTO/EntitieDTO.cpp BL/DTO/EntitieDTO.h BL/Services/ManagerService.cpp BL/Services/ManagerService.h)

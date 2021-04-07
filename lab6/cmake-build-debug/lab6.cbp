@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="lab6"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/labs/OOP/lab6/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/labs/OOP/lab6/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/labs/OOP/lab6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/labs/OOP/lab6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/labs/OOP/lab6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab6">
+				<Option output="D:/labs/OOP/lab6/cmake-build-debug/lab6.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/labs/OOP/lab6/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/labs/OOP/lab6/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab6"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/labs/OOP/lab6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/labs/OOP/lab6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/labs/OOP/lab6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab6/fast">
+				<Option output="D:/labs/OOP/lab6/cmake-build-debug/lab6.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/labs/OOP/lab6/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/labs/OOP/lab6/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab6/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/labs/OOP/lab6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/labs/OOP/lab6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/labs/OOP/lab6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/labs/OOP/lab6/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/labs/OOP/lab6/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/labs/OOP/lab6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/labs/OOP/lab6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/labs/OOP/lab6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/labs/OOP/lab6/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/labs/OOP/lab6/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/labs/OOP/lab6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/labs/OOP/lab6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/labs/OOP/lab6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/labs/OOP/lab6/BL/DTO/EmployeeDTO.cpp">
+			<Option target="lab6"/>
+		</Unit>
+		<Unit filename="D:/labs/OOP/lab6/BL/DTO/EmployeeDTO.h">
+			<Option target="lab6"/>
+		</Unit>
+		<Unit filename="D:/labs/OOP/lab6/BL/DTO/EntitieDTO.cpp">
+			<Option target="lab6"/>
+		</Unit>
+		<Unit filename="D:/labs/OOP/lab6/BL/DTO/EntitieDTO.h">
+			<Option target="lab6"/>
+		</Unit>
+		<Unit filename="D:/labs/OOP/lab6/BL/DTO/ReportDTO.cpp">
+			<Option target="lab6"/>
+		</Unit>
+		<Unit filename="D:/labs/OOP/lab6/BL/DTO/ReportDTO.h">
+			<Option target="lab6"/>
+		</Unit>
+		<Unit filename="D:/labs/OOP/lab6/BL/DTO/TaskDTO.cpp">
+			<Option target="lab6"/>
+		</Unit>
+		<Unit filename="D:/labs/OOP/lab6/BL/DTO/TaskDTO.h">
+			<Option target="lab6"/>
+		</Unit>
+		<Unit filename="D:/labs/OOP/lab6/BL/Services/EmployeeManagerService.cpp">
+			<Option target="lab6"/>
+		</Unit>
+		<Unit filename="D:/labs/OOP/lab6/BL/Services/EmployeeManagerService.h">
+			<Option target="lab6"/>
+		</Unit>
+		<Unit filename="D:/labs/OOP/lab6/BL/Services/ManagerService.cpp">
+			<Option target="lab6"/>
+		</Unit>
+		<Unit filename="D:/labs/OOP/lab6/BL/Services/ManagerService.h">
+			<Option target="lab6"/>
+		</Unit>
+		<Unit filename="D:/labs/OOP/lab6/BL/Services/ReportManagerService.cpp">
+			<Option target="lab6"/>
+		</Unit>
+		<Unit filename="D:/labs/OOP/lab6/BL/Services/ReportManagerService.h">
+			<Option target="lab6"/>
+		</Unit>
+		<Unit filename="D:/labs/OOP/lab6/BL/Services/TaskManagerService.cpp">
+			<Option target="lab6"/>
+		</Unit>
+		<Unit filename="D:/labs/OOP/lab6/BL/Services/TaskManagerService.h">
+			<Option target="lab6"/>
+		</Unit>
+		<Unit filename="D:/labs/OOP/lab6/DAL/Entities/Employee.cpp">
+			<Option target="lab6"/>
+		</Unit>
+		<Unit filename="D:/labs/OOP/lab6/DAL/Entities/Employee.h">
+			<Option target="lab6"/>
+		</Unit>
+		<Unit filename="D:/labs/OOP/lab6/DAL/Entities/Entitie.cpp">
+			<Option target="lab6"/>
+		</Unit>
+		<Unit filename="D:/labs/OOP/lab6/DAL/Entities/Entitie.h">
+			<Option target="lab6"/>
+		</Unit>
+		<Unit filename="D:/labs/OOP/lab6/DAL/Entities/Report.cpp">
+			<Option target="lab6"/>
+		</Unit>
+		<Unit filename="D:/labs/OOP/lab6/DAL/Entities/Report.h">
+			<Option target="lab6"/>
+		</Unit>
+		<Unit filename="D:/labs/OOP/lab6/DAL/Entities/Task.cpp">
+			<Option target="lab6"/>
+		</Unit>
+		<Unit filename="D:/labs/OOP/lab6/DAL/Entities/Task.h">
+			<Option target="lab6"/>
+		</Unit>
+		<Unit filename="D:/labs/OOP/lab6/DAL/Infrastructure/EmployeeManagerSystem.cpp">
+			<Option target="lab6"/>
+		</Unit>
+		<Unit filename="D:/labs/OOP/lab6/DAL/Infrastructure/EmployeeManagerSystem.h">
+			<Option target="lab6"/>
+		</Unit>
+		<Unit filename="D:/labs/OOP/lab6/DAL/Infrastructure/ManagerSystem.cpp">
+			<Option target="lab6"/>
+		</Unit>
+		<Unit filename="D:/labs/OOP/lab6/DAL/Infrastructure/ManagerSystem.h">
+			<Option target="lab6"/>
+		</Unit>
+		<Unit filename="D:/labs/OOP/lab6/DAL/Infrastructure/ReportManagerSystem.cpp">
+			<Option target="lab6"/>
+		</Unit>
+		<Unit filename="D:/labs/OOP/lab6/DAL/Infrastructure/ReportManagerSystem.h">
+			<Option target="lab6"/>
+		</Unit>
+		<Unit filename="D:/labs/OOP/lab6/DAL/Infrastructure/TaskManagerSystem.cpp">
+			<Option target="lab6"/>
+		</Unit>
+		<Unit filename="D:/labs/OOP/lab6/DAL/Infrastructure/TaskManagerSystem.h">
+			<Option target="lab6"/>
+		</Unit>
+		<Unit filename="D:/labs/OOP/lab6/DAL/Time.cpp">
+			<Option target="lab6"/>
+		</Unit>
+		<Unit filename="D:/labs/OOP/lab6/DAL/Time.h">
+			<Option target="lab6"/>
+		</Unit>
+		<Unit filename="D:/labs/OOP/lab6/PL/Action.cpp">
+			<Option target="lab6"/>
+		</Unit>
+		<Unit filename="D:/labs/OOP/lab6/PL/Action.h">
+			<Option target="lab6"/>
+		</Unit>
+		<Unit filename="D:/labs/OOP/lab6/main.cpp">
+			<Option target="lab6"/>
+		</Unit>
+		<Unit filename="D:/labs/OOP/lab6/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
